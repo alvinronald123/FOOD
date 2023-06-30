@@ -1,0 +1,172 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+.wrapper{
+  padding:1%;
+  width:80%;
+  margin: 0 auto;
+}
+.text-center{
+  text-align: center;
+}
+.clear-fix{
+  float:none;
+  clear:both;
+}
+/*  css for menu*/
+.menu{
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu ul li{
+  display: inline;
+  padding:2%;
+}
+.menu ul li a{
+text-decoration: none;
+font-weight: bold;
+color:orange;
+border: 1px solid black;
+padding:10px;
+border-radius: 20px;
+}
+.menu ul li a:hover{
+  color:green;
+}
+/*  css for main content*/
+.main-content{
+padding:3% 0;
+  background-color: #f1f2f6;
+}
+.col-4{
+  width:18%;
+  background-color: white;
+  margin:1%;
+  padding: 2%;
+  float:left;
+}
+/* css for manage- admin*/
+.tbl-full{
+  width:100%;
+}
+table tr th{
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+table tr td{
+  padding: 1%;
+
+}
+
+/* css for  buttons in manage- admin*/
+.btn-primary{
+  background-color: #1e90ff;
+  padding: 1%;
+  color:white;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-primary:hover{
+  background-color: green;
+}
+
+.btn-secondary{
+  background-color:rgb(219, 127, 127);
+  padding: 1%;
+  color:white;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-secondary:hover{
+  background-color:yellow;
+}
+.btn-danger{
+  background-color:green;
+  padding: 1%;
+  color:white;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-danger:hover{
+  background-color: red;
+}
+/* css for table form add admin php*/
+.tbl-30{
+  width:80%;
+
+  text-align: center;
+}
+.tbl-30 input{
+  width:60%;
+  height:20px;
+  padding: 2%;
+  margin: auto;
+  border-radius: 15px;
+}
+.tbl-30 tr td{
+  margin-right: 1%;
+}
+.new{
+  margin-left: 90px;
+}
+
+.success{
+  color:green;
+}
+.error{
+  color:red;
+}
+/*   css for update form for update admi*/
+.update{
+  margin-left: 80px;
+}
+.confirm_password{
+  margin-left:120px;
+}
+/* css for login*/
+
+.login{
+  border:1px solid black;
+  width:30%;
+  margin: 10% auto;
+  padding: 2%;
+}
+.logform{
+  width:100%;
+  border-radius: 15px;
+  height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  css for footer*/
+.footer{
+  background-color: #ff4757;
+
+  color:white;
+}
